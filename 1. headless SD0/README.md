@@ -58,7 +58,7 @@ time make
 ```
 #### Where to find ready image:
 ```
-ls -l microchip/buildroot-at91/output/image/
+ls -l output/images/
 ```
 #### Burn the image to SD card:
 ```
