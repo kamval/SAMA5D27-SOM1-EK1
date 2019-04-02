@@ -44,7 +44,7 @@ exit
 time make
 ```
 
-Check previous guide to see how and where:
+#### Check previous guide to see 5W1H:
 - Find ready image
 - Burn the image to SD card
 
