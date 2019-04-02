@@ -10,6 +10,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](
 ```
 sudo apt-get update
 sudo apt-get upgrade
+
 lsb_release -a 
 ```
 
