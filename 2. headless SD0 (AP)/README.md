@@ -4,7 +4,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](
 
 #### Check previous guide to see 5W1H:
 - Pre Requirements
-- Linux version
+- Linux update and version check
 - Find info. on the web
 - Required packets
 - Git repositories
