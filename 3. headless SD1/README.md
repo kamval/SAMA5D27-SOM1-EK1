@@ -20,9 +20,9 @@ make menuconfig
 
 System configuration  --->
         ...
-    [*] System hostname
-	[*] System Banner
-	[*] Root password
+    [sama5d27-som1] System hostname
+	[SAMA5D27 Microchip Embedded Demo] System Banner
+	[toor] Root password
 ```
 #### Change the bootstrap, u-boot and environment image configs files:
 
@@ -31,15 +31,15 @@ Bootloaders  --->
         ...
     [*] AT91 Bootstrap 3  --->
             ...
-            [*] Defconfig name
+            [sama5d27-som1_eksd1_uboot] Defconfig name
         ...
     [*] U-Boot  --->
             ...
-            [*] Board defconfig
+            [sama5d27-som1_ek_mmc1] Board defconfig
         ...
     [*] Environment image  --->			
             ...
-            [*] Source files for environment
+            ($(BR2_EXTERNAL_MCHP_PATH)/board/microchip/sama5d27_som1_ek/uboot-sd1-env.txt) Source files for environment
 
 time make
 ```

@@ -14,9 +14,9 @@ lsb_release -a
 ```
 
 #### Where to find info. on the web:
-- Linux4SAM: https://www.at91.com/linux4sam/bin/view/Linux4SAM
-- BuildRoot: https://www.at91.com/linux4sam/bin/view/Linux4SAM/BuildRootBuild
-- Microchip SAMA5 Buildroot External: https://github.com/linux4sam/buildroot-external-microchip/
+- Linux4SAM: [Landing page](https://www.at91.com/linux4sam/bin/view/Linux4SAM)
+- Linux4SAM: [How to BuildRoot](https://www.at91.com/linux4sam/bin/view/Linux4SAM/BuildRootBuild)
+- Git Buildroot External: [Microchip SAMA5](https://github.com/linux4sam/buildroot-external-microchip/)
 
 #### Required packets:
 ```
@@ -50,9 +50,9 @@ make menuconfig
 
 System configuration  --->
         ...
-    [*] System hostname
-	[*] System Banner
-	[*] Root password
+    [sama5d27-som1] System hostname
+	[SAMA5D27 Microchip Embedded Demo] System Banner
+	[toor] Root password
 
 time make
 ```

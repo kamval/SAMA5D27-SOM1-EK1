@@ -19,9 +19,9 @@ make menuconfig
 
 System configuration  --->
         ...
-    [*] System hostname
-	[*] System Banner
-	[*] Root password
+    [sama5d27-som1] System hostname
+	[SAMA5D27 Microchip Embedded Demo] System Banner
+	[toor] Root password
 ```
 #### Add lighttpd support: 
 ```
