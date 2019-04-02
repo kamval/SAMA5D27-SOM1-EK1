@@ -24,12 +24,22 @@ System configuration  --->
 	[*] System Banner
 	[*] Root password
 ```
-#### Change bootstrap, uboot and u-env configs:
+#### Change the bootstrap, u-boot and environment image configs files:
 
 ```
 Bootloaders  --->
-
-
+        ...
+    [*] AT91 Bootstrap 3  --->
+            ...
+            [*] Defconfig name
+        ...
+    [*] U-Boot  --->
+            ...
+            [*] Board defconfig
+        ...
+    [*] Environment image  --->			
+            ...
+            [*] Source files for environment
 
 time make
 ```
