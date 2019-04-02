@@ -6,7 +6,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available here:
 - install Etcher, [ubuntu guide](https://www.omgubuntu.co.uk/2017/05/how-to-install-etcher-on-ubuntu) 
 - install minicom
 
-#### Linux version:
+#### Linux update and version check:
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -15,8 +15,8 @@ lsb_release -a
 
 #### Where to find info. on the web:
 - Linux4SAM: [Landing page](https://www.at91.com/linux4sam/bin/view/Linux4SAM)
-- Linux4SAM: [How to BuildRoot](https://www.at91.com/linux4sam/bin/view/Linux4SAM/BuildRootBuild)
-- Git Buildroot External: [Microchip SAMA5](https://github.com/linux4sam/buildroot-external-microchip/)
+- Linux4SAM Buildroot: [How to BuildRoot](https://www.at91.com/linux4sam/bin/view/Linux4SAM/BuildRootBuild)
+- Buildroot External: [Microchip SAMA5 Buildroot External](https://github.com/linux4sam/buildroot-external-microchip/)
 
 #### Required packets:
 ```
