@@ -15,6 +15,6 @@ Buildroot supports numerous processors and their variants; it also comes with de
 
 [ATSAMA5D27-SOM1-EK1](https://www.microchip.com/developmenttools/ProductDetails/atsama5d27-som1-ek1) is a fast prototyping and evaluation platform for the SAMA5D2 based System in Packages (SiPs) and the SAMA5D27-SOM1 (SAMA5D27 System On Module). The kit comprises a baseboard with a soldered ATSAMA5D27-SOM1 module. The module features an ATSAMA5D27C-D1G-CU SIP embedding a 1-Gbit (128 MB) DDR2 DRAM. The SOM integrates a Power Management IC (PMIC), a QSPI memory, a 10/100 Mbps Ethernet PHY and a serial EEPROM with a MAC address. 128 GPIO pins are provided by the SOM for general use in the system. The board features a wide range of peripherals, as well as a user interface and expansion options, including two mikroBUS™ click interface headers to support MikroElektronika click boards™ and one PMOD™ interface. Linux distribution and software package allows you to easily get started with your development.
 
-<p class="aligncenter">
-    <img src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/a5d27_som1_ek_board_presentation.png" alt="centered image" />
+<p align="center">
+  <img width="600" height="600" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/a5d27_som1_ek_board_presentation.png">
 </p>
