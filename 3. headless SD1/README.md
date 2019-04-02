@@ -48,6 +48,8 @@ time make
 - Find ready image
 - Burn the image to SD card
 
+Plug the ready SD card in J14 connector.
+
 #### Play with image:
 ```
 sudo minicom -b 115200 -D /dev/ttyS2
