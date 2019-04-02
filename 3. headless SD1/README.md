@@ -1,4 +1,4 @@
-### SAMA5D27-SOM1 BASICS: How to boot from SD1
+### SAMA5D27-SOM1 BASICS: How to compile a demo and boot from SD1
 
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available here:
 
