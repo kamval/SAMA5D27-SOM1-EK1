@@ -21,8 +21,8 @@ make menuconfig
 System configuration  --->
         ...
     [sama5d27-som1] System hostname
-	[SAMA5D27 Microchip Embedded Demo] System Banner
-	[toor] Root password
+    [SAMA5D27 Microchip Embedded Demo] System Banner
+    [toor] Root password
 ```
 #### Change the bootstrap, u-boot and environment image configs files:
 
