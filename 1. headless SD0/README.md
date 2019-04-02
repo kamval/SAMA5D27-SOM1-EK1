@@ -3,7 +3,7 @@
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available here: 
 
 #### Pre Requirements:
-- install Etcher, guide: https://www.omgubuntu.co.uk/2017/05/how-to-install-etcher-on-ubuntu 
+- install Etcher, [ubuntu guide](https://www.omgubuntu.co.uk/2017/05/how-to-install-etcher-on-ubuntu) 
 - install minicom
 
 #### Linux version:
@@ -43,6 +43,7 @@ git checkout linux4sam_6.0 -b buildroot-at91-linux4sam_6.0
 ```
 BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_som1_ek_headless_defconfig
 ```
+
 #### Change some basic system settings: 
 
 ```
@@ -54,12 +55,17 @@ System configuration  --->
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 
+save
+exit
+
 time make
 ```
+
 #### Where to find ready image:
 ```
 ls -l output/images/
 ```
+
 #### Burn the image to SD card:
 ```
 etcher-electron
