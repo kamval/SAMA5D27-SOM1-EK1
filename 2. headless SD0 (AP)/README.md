@@ -1,4 +1,4 @@
-### SAMA5D27-SOM1 BASICS: How to add new packages and boot from SD0
+### SAMA5D27-SOM1 BASICS: How to compile a demo, add new packages and boot from SD0
 
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](https://www.youtube.com/)
 
