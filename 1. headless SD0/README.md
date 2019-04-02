@@ -64,6 +64,9 @@ ls -l output/images/
 ```
 etcher-electron
 ```
+
+Plug the ready SD card in J12 connector.
+
 #### Play with image:
 ```
 sudo minicom -b 115200 -D /dev/ttyS2
