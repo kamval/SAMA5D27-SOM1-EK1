@@ -2,7 +2,7 @@
 
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available here:
 
-#### Check previous guide to see how and where: 
+#### Check previous guide to see 5W1H: 
 
 - Pre Requirements 
 - Linux version 
@@ -14,6 +14,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available here:
 ```
 BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_som1_ek_headless_defconfig
 ```
+
 #### Change some basic system settings: 
 ```
 make menuconfig
@@ -24,6 +25,7 @@ System configuration  --->
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 ```
+
 #### Change the bootstrap, u-boot and environment image configs files:
 
 ```
@@ -41,10 +43,13 @@ Bootloaders  --->
             ...
             ($(BR2_EXTERNAL_MCHP_PATH)/board/microchip/sama5d27_som1_ek/uboot-sd1-env.txt) Source files for environment
 
+save
+exit
+
 time make
 ```
 
-#### Check previous guide to see how and where: 
+#### Check previous guide to see 5W1H: 
 - Find ready image
 - Burn the image to SD card
 
