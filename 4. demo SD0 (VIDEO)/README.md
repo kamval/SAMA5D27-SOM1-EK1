@@ -4,7 +4,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](
 
 #### Pre Requirements:
 
-We will need a LCD panel in order to have a video output, the compatible solutions are listed below:
+We will need a LCD panel in order to have a video output some of the compatible solutions are listed below:
 
 - Use some of [capacitive multitouch solutions](http://www.pdaatl.com/products.htm) manufacture by [PDA inc](http://www.pdaatl.com/)
 - Use custom LCD adpter board
