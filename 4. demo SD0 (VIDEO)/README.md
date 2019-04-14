@@ -9,8 +9,8 @@ We will need a LCD panel in order to have a video output, the compatible solutio
 - Use some of [capacitive multitouch solutions](http://www.pdaatl.com/products.htm) manufacture by [PDA inc](http://www.pdaatl.com/)
 - Use custom LCD adpter board
 
-For this guide we will use a custom developed board, enabling us to connect every LCD display with 24-bit RGB paralell interface. You can build it by yourself, check folloing repository: [LCD adapter board r1.0](https://github.com/kamval/SAMA5D27-SOM1-EK1/tree/master/4.%20demo%20SD0%20(VIDEO)/LCD%20adapter%20board%20r1.0). 
-The display used for the guide is: [KWH043ST12](https://store.comet.bg/Catalogue/Product/45269/) manufacture by [FORMIKE](https://www.wandisplay.com/). 
+For this guide we will use a custom developed board, enabling us to connect every LCD with 24-bit RGB parallel interface. You can build it by yourself, check following repository: [LCD adapter board r1.0](https://github.com/kamval/SAMA5D27-SOM1-EK1/tree/master/4.%20demo%20SD0%20(VIDEO)/LCD%20adapter%20board%20r1.0). 
+The PN of the display used for the guide is: [KWH043ST12](https://store.comet.bg/Catalogue/Product/45269/) manufacture by [FORMIKE](https://www.wandisplay.com/). 
 
 #### Check previous guide to see 5W1H:
 - Pre Requirements
@@ -35,7 +35,7 @@ System configuration  --->
     [toor] Root password
 ```
 
-You can skip this step, however, in oreder to uploade the image on github we need to lower the fs root size:
+You can skip this step, however, in order to upload the image on github we need to lower the fs root size:
 
 ```
 Filesystem images  --->
