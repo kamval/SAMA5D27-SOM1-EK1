@@ -46,14 +46,14 @@ Plug the ready SD card in J12 connector.
 
 #### How to manually select (or enforce) video at boot time:
 
-Press any key during U-Boot, the following text should appear:          
+- Press any key during U-Boot, the following text should appear:          
 
 ```
 Hit any key to stop autoboot:  1 ... 0
 
 ```
 
-Enforce video by entering the following command: 
+- Enforce video by entering the following command: 
 
 
 ```
@@ -61,7 +61,7 @@ setenv bootcmd 'fatload mmc 0:1 0x24000000 sama5d27_som1_ek.itb; bootm 0x2400000
 saveenv
 ```
 
-Restat the board, now the video output is enabled. 
+- Restat the board, now the video output is enabled. 
 
 #### Play with image:
 ```
