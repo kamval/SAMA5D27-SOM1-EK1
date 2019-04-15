@@ -39,8 +39,9 @@ You can skip this step, however, in order to upload the image on github we need 
 
 ```
 Filesystem images  --->
-        ...
-    [sama5d27-som1] To Do
+    [*] ext2/3/4 root filesystem --->
+            ...
+            (256M) exct size
 
 save
 exit
