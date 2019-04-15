@@ -33,15 +33,6 @@ System configuration  --->
     [sama5d27-som1] System hostname
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
-```
-
-You can skip this step, however, in order to upload the image on github we need to lower the fs root size:
-
-```
-Filesystem images  --->
-    [*] ext2/3/4 root filesystem --->
-            ...
-            (256M) exct size
 
 save
 exit
