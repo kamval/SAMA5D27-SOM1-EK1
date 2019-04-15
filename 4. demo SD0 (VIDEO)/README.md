@@ -55,7 +55,7 @@ time make
 
 Plug the ready SD card in J12 connector.
 
-#### How to manually select (or enforce) video at boot time:
+#### Manually select (or enforce) video at boot time:
 
 Press any key during U-Boot, the following text should appear:          
 
@@ -63,19 +63,19 @@ Press any key during U-Boot, the following text should appear:
 Hit any key to stop autoboot:  1 ... 0
 
 ```
-Enforce video by entering the following command: 
+Enforce video by entering the following command in u-boot menu: 
 
 ```
 setenv bootcmd 'fatload mmc 0:1 0x24000000 sama5d27_som1_ek.itb; bootm 0x24000000#kernel_dtb#pda4'
 saveenv
 ```
 
-Restart the board, now the video output is enabled. 
+Restart the board. Now the video output should be enabled. 
 
 #### Play with image:
 ```
 sudo minicom -b 115200 -D /dev/ttyS2
 ```
 <p align="center">
-  <img width="659" height="693" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/a5d27_som1_video_demo_top.jpg">
+  <img width="659" height="693" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/a5d27_som1_video_demo_bot.jpg">
 </p>
