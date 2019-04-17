@@ -6,7 +6,7 @@ LCD Adapter Board makes easy the connection between SOM1_EK board and any LCD di
 
 
 <p align="center">
-  <img width="659" height="693" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/LCD_adapter_r10.jpg">
+  <img width="695" height="522" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/LCD_adapter_r10.jpg">
 </p>
 
 #### Tests
