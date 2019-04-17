@@ -2,6 +2,13 @@
 
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](https://www.youtube.com/)
 
+#### Check previous guide to see 5W1H:
+- Software Pre Requirements
+- Linux update and version check
+- Find info. on the web
+- Required packets
+- Git repositories
+
 #### Pre Requirements:
 
 We will need a LCD panel in order to have a video output some of the compatible solutions are listed below:
@@ -11,13 +18,6 @@ We will need a LCD panel in order to have a video output some of the compatible 
 
 For this guide we will use a custom developed board, enabling us to connect every LCD with 24-bit RGB parallel interface (check following folder in this repository: [LCD adapter board r1.0](https://github.com/kamval/SAMA5D27-SOM1-EK1/tree/master/4.%20demo%20SD0%20(VIDEO)/LCD%20adapter%20board%20r1.0)). 
 The exact PN of the display used for the guide is: [KWH043ST12](https://store.comet.bg/Catalogue/Product/45269/) manufacture by [FORMIKE](https://www.wandisplay.com/). 
-
-#### Check previous guide to see 5W1H:
-- Pre Requirements
-- Linux update and version check
-- Find info. on the web
-- Required packets
-- Git repositories
 
 #### Configure and compile from sources a demo image:
 ```
@@ -48,18 +48,21 @@ Plug the ready SD card in J12 connector.
 
 #### Manually select (or enforce) video at boot time:
 
+By default the video output is not enabled. The compiled demo supports the following display sizes:
+
+- 4.3in TFT LCD, 480x272 - sama5d27_som1_ek_pda4.dtbo
+- - sama5d27_som1_ek_pda5.dtbo
+- 7in TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo
+
+You need to enable it manualy 
+
+
 Press any key during U-Boot, the following text should appear:          
 
 ```
 Hit any key to stop autoboot:  1 ... 0
 
 ```
-The compiled demo supports the following display sizes:
-
-- 
-- 
-- 
-- 
 
 Enforce video by entering the following command in u-boot menu: 
 
