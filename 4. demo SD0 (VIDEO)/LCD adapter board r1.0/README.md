@@ -2,7 +2,7 @@
 
 LCD Adapter Board is a fast prototyping and evaluation platform which makes easy the connection between SAMA5D27-SOM1-EK1 board and any LCD display featuing 24-bit RGB parallel interface (with or without TS). It is inteneded to make your tests easier and faster using displays from any vendor.   
 
-#### Features 
+#### Features: 
 - Buildin connectors (SAMA5D27-SOM1-EK1 interface, LCD interface and TS interface)
 - Buildin Step-up switching regulator for LED LCD background   
 - Buildin LDO for LCD interface
