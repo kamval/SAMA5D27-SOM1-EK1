@@ -51,8 +51,8 @@ Plug the ready SD card in J12 connector.
 By default the video output is not enabled. The compiled demo supports the following display sizes:
 
 - 4.3in TFT LCD, 480x272 - sama5d27_som1_ek_pda4.dtbo
-- - sama5d27_som1_ek_pda5.dtbo
-- 7in TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo
+- 5.0in TFT LCD, 800x480 - sama5d27_som1_ek_pda5.dtbo
+- 7.0in TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo
 
 You need to enable it manualy 
 
