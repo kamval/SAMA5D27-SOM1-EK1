@@ -54,10 +54,7 @@ By default the video output is not enabled. The compiled demo supports the follo
 - 5.0in TFT LCD, 800x480 - sama5d27_som1_ek_pda5.dtbo
 - 7.0in TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo
 
-You need to enable it manualy 
-
-
-Press any key during U-Boot, the following text should appear:          
+You need to enable the needed environment manualy. To do that press any key during U-Boot, the following text should appear:          
 
 ```
 Hit any key to stop autoboot:  1 ... 0
