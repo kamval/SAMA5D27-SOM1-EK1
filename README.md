@@ -1,8 +1,8 @@
-### SAMA5D27-SOM1-EK1
+### About this Guide
 
 A step by step guide to build from source Bulidroot for SAMA5D27-SOM1-EK1. 
 
-This entry level guide would be usefull for everyboady who are starting their first steps with Embedded Linux, [Buildroot](https://buildroot.org/) and [Microchip MPUs](https://www.microchip.com/design-centers/32-bit-mpus ).
+This entry level guide would be useful for everybody who are making their first steps with Embedded Linux, [Buildroot](https://buildroot.org/) and [Microchip MPUs](https://www.microchip.com/design-centers/32-bit-mpus ). The guide is intended to get you up to speed and finish your project easier and faster.
 
 #### About Buildroot:
 
