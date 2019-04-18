@@ -17,3 +17,5 @@ LCD Adapter Board is a fast prototyping and evaluation PCB which makes easy the 
 <p align="center">
   <img width="659" height="449" src="https://github.com/kamval/SAMA5D27-SOM1-EK1/blob/master/Documents/a5d27_som1_video_demo_bot.jpg">
 </p>
+
+If you want to get a piece of LCD Adapter Board or build one, please contact me at: [kamen.valkov@comet.bg](kamen.valkov@comet.bg)
