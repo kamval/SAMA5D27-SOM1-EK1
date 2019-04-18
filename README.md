@@ -1,4 +1,4 @@
-### About this Guide
+### SAMA5D27 Guide
 
 A step by step guide to build from source Bulidroot for SAMA5D27-SOM1-EK1. 
 
