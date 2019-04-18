@@ -4,7 +4,7 @@ LCD Adapter Board is a fast prototyping and evaluation PCB which makes easy the 
 
 #### Features: 
 - Build-in Connectors (SAMA5D27-SOM1-EK1 interface, LCD interface and TS interface)
-- Build-in Step-up switching regulator providing up to 24V (CC mode) for LED LCD background   
+- Build-in Step-up switching regulator providing up to 24V (CC mode) for LED LCD backlight 
 - Build-in LDO providing 3.3V for LCD interface
 - Build-in LDO providing 3.3V for TS interface
 
