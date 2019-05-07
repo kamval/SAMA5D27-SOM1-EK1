@@ -3,7 +3,7 @@
 Buildroot Video Step by Step Guide for SAMA5D27-SOM1-EK1 available on [youtube](https://www.youtube.com/) 
 
 #### Software Pre Requirements:
-- install etcher, check [ubuntu guide](https://www.omgubuntu.co.uk/2017/05/how-to-install-etcher-on-ubuntu) 
+- install etcher, check [ubuntu guide](https://github.com/balena-io/etcher) 
 - install minicom
 
 #### Linux update and version check:
